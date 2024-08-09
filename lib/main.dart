@@ -19,7 +19,7 @@ class _MyAppState extends State<MyApp> {
     return (MaterialApp(debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text(
+          title: const Text(
             "Points Counter",
             style: TextStyle(color: Colors.white, fontSize: 20),
           ),
